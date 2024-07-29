@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Engine
-{
+{ 
     public class PlayerQuest
     {
         public PlayerQuest(Quest details, bool isCompleted)

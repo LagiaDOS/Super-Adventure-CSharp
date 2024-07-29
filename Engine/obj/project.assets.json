@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\Engine.csproj",
+      "projectUniqueName": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\Engine.csproj",
       "projectName": "Engine",
-      "projectPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\Engine.csproj",
+      "projectPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\Engine.csproj",
       "packagesPath": "C:\\Users\\Roger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\obj\\",
+      "outputPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Roger\\AppData\\Roaming\\NuGet\\NuGet.Config",

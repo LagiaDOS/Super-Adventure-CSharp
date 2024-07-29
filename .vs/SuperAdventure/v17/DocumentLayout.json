@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\",
+  "WorkspaceRootPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C654FD1-F01A-4D22-A388-8BF69B731B29}|SuperAdventure\\SuperAdventure.csproj|c:\\users\\roger\\source\\repos\\superadventure\\superadventure\\superadventure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4C654FD1-F01A-4D22-A388-8BF69B731B29}|SuperAdventure\\SuperAdventure.csproj|c:\\users\\roger\\source\\repos\\superadventure\\super-adventure-c-\\superadventure\\superadventure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C654FD1-F01A-4D22-A388-8BF69B731B29}|SuperAdventure\\SuperAdventure.csproj|solutionrelative:superadventure\\superadventure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F107CA-3841-488E-B40E-482FDA68E7BB}|Engine\\Engine.csproj|c:\\users\\roger\\source\\repos\\superadventure\\engine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9F107CA-3841-488E-B40E-482FDA68E7BB}|Engine\\Engine.csproj|c:\\users\\roger\\source\\repos\\superadventure\\super-adventure-c-\\engine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9F107CA-3841-488E-B40E-482FDA68E7BB}|Engine\\Engine.csproj|solutionrelative:engine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C654FD1-F01A-4D22-A388-8BF69B731B29}|SuperAdventure\\SuperAdventure.csproj|C:\\Users\\Roger\\source\\repos\\SuperAdventure\\superadventure\\superadventure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4C654FD1-F01A-4D22-A388-8BF69B731B29}|SuperAdventure\\SuperAdventure.csproj|C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\superadventure\\superadventure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4C654FD1-F01A-4D22-A388-8BF69B731B29}|SuperAdventure\\SuperAdventure.csproj|solutionrelative:superadventure\\superadventure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "SuperAdventure.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\SuperAdventure.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\SuperAdventure.cs",
               "RelativeDocumentMoniker": "SuperAdventure\\SuperAdventure.cs",
-              "ToolTip": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\SuperAdventure.cs [Design]",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\SuperAdventure.cs [Design]",
               "RelativeToolTip": "SuperAdventure\\SuperAdventure.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T10:53:43.18Z",
@@ -39,28 +39,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SuperAdventure.cs",
-              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\SuperAdventure.cs",
-              "RelativeDocumentMoniker": "SuperAdventure\\SuperAdventure.cs",
-              "ToolTip": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\SuperAdventure.cs",
-              "RelativeToolTip": "SuperAdventure\\SuperAdventure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAPAAAA",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\Player.cs",
+              "RelativeDocumentMoniker": "Engine\\Player.cs",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\Player.cs",
+              "RelativeToolTip": "Engine\\Player.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAA1wHsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T12:38:46.039Z",
+              "WhenOpened": "2024-06-19T16:52:17.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\Player.cs",
-              "RelativeDocumentMoniker": "Engine\\Player.cs",
-              "ToolTip": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\Player.cs",
-              "RelativeToolTip": "Engine\\Player.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB0AAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "SuperAdventure.cs",
+              "DocumentMoniker": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\SuperAdventure.cs",
+              "RelativeDocumentMoniker": "SuperAdventure\\SuperAdventure.cs",
+              "ToolTip": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\SuperAdventure.cs",
+              "RelativeToolTip": "SuperAdventure\\SuperAdventure.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAAKgAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T14:07:01.419Z"
+              "WhenOpened": "2024-06-06T12:38:46.039Z",
+              "EditorCaption": ""
             }
           ]
         }

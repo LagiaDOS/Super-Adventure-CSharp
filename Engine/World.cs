@@ -156,13 +156,15 @@ namespace Engine
             townSquare.LocationToEast = guardPost;
             townSquare.LocationToWest = farmhouse;
 
-            farmhouse.LocationToEast =townSquare;
+            farmhouse.LocationToEast = townSquare;
             farmhouse.LocationToWest = farmersField;
 
             farmersField.LocationToEast = farmhouse;
 
             alchemistHut.LocationToSouth = townSquare;
             alchemistHut.LocationToNorth = alchemistsGarden;
+
+            alchemistsGarden.LocationToSouth = alchemistHut;
 
             guardPost.LocationToEast = bridge;
             guardPost.LocationToWest = townSquare;

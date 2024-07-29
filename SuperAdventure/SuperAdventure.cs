@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SuperAdventure
-{
+{ 
     public partial class SuperAdventure : Form
     {
         private Player _player;
@@ -50,7 +50,7 @@ namespace SuperAdventure
 
         private void btnEast_Click(object sender, EventArgs e)
         {
-            MoveTo(_player.CurrentLocation.LocationToWest);
+            MoveTo(_player.CurrentLocation.LocationToEast);
 
         }
 
@@ -58,30 +58,13 @@ namespace SuperAdventure
         private void MoveTo(Location newLocation)
         {
             //does the location have any required item
-            if (newLocation.ItemRequiredToEnter != null)
+            if(!_player.HasRequiredItemToEnterThisLocation(newLocation))
             {
-                //see if the player has the required item in the inventory
-                bool playerHasRequiredItem = false;
-
-                foreach (InventoryItem ii in _player.Inventory)
-                {
-                    if (ii.Details.ID == newLocation.ItemRequiredToEnter.ID)
-                    {
-                        //we have the required item
-                        playerHasRequiredItem = true; break;
-                    }
-
-                    if (!playerHasRequiredItem)
-                    {
-                        //we don't have the required item, so we display a message and stop the move.
-
-                        rtbMessages.Text += "You must have a " + newLocation.ItemRequiredToEnter.Name +
-                            "to enter" + newLocation.Name + "." + Environment.NewLine;
-                        return;
-                    }
-                }
+                rtbMessages.Text += "You must have a " + newLocation.ItemRequiredToEnter.Name +
+                            " to enter " + newLocation.Name + "." + Environment.NewLine;
+                return;
             }
-            
+
             //update players location
             _player.CurrentLocation = newLocation;
 
@@ -105,10 +88,10 @@ namespace SuperAdventure
             if (newLocation.QuestAvailableHere != null)
             {
                 //see if player has te quest or have completed it
-                bool playerAlreadyHasQuest = false;
-                bool playerAlreadyCompletedQuest = false;
+                bool playerAlreadyHasQuest = _player.HasThisQuest(newLocation.QuestAvailableHere);
+                bool playerAlreadyCompletedQuest = _player.CompletedThisQuest(newLocation.QuestAvailableHere);
 
-                foreach (PlayerQuest playerQuest in _player.Quests)
+                /*foreach (PlayerQuest playerQuest in _player.Quests)
                 {
                     if (playerQuest.Details.ID == newLocation.QuestAvailableHere.ID)
                     {
@@ -119,18 +102,25 @@ namespace SuperAdventure
                         }
                     }
                 }
+                */
+
 
                 //see if player already has the quest
                 if (playerAlreadyHasQuest)
                 {
+                    //see if player has all the items needed to complete quest
+
+
+
+
 
                     //if the player has not completed the quest
                     if (!playerAlreadyCompletedQuest)
                     {
+                        //see if pplayer has all the items needed to complete the quest
+                        bool playerHasAllItemsToCompleteQuest = false; _player.HasAllQuestsCompletionItems(newLocation.QuestAvailableHere);
 
-                        //se if pplayer has all the items needed to complete the quest
-                        bool playerHasAllItemsToCompleteQuest = false;
-
+                        /*
                         foreach (QuestCompletionItem qci in newLocation.QuestAvailableHere.QuestCompletionItem)
                         {
                             bool founditemInPlayersInventory = false;
@@ -163,7 +153,11 @@ namespace SuperAdventure
                                 playerHasAllItemsToCompleteQuest = false;
                                 break;
                             }
-                        }
+                    
+                        }*/
+
+
+
                         //the player has all items to complete the quest
                         if (playerHasAllItemsToCompleteQuest)
                         {
@@ -172,6 +166,8 @@ namespace SuperAdventure
                             rtbMessages.Text += "You complete the " + newLocation.QuestAvailableHere.Name + " quest." + Environment.NewLine;
 
                             //remove items from inventory
+                            _player.RemoveQuestCompletionItems(newLocation.QuestAvailableHere);
+                            /*
                             foreach (QuestCompletionItem qci in newLocation.QuestAvailableHere.QuestCompletionItem)
                             {
                                 foreach (InventoryItem ii in _player.Inventory)
@@ -183,15 +179,16 @@ namespace SuperAdventure
                                         break;
                                     }
                                 }
-                            }
+                            }*/
+
                             //give quest rewards
                             rtbMessages.Text += "You recieve: " + Environment.NewLine;
                             rtbMessages.Text +=
                                 newLocation.QuestAvailableHere.RewardExperiencePoints.ToString()
-                                + " experience points" + Environment.NewLine;
+                                + " experience points." + Environment.NewLine;
                             rtbMessages.Text +=
                                 newLocation.QuestAvailableHere.RewardGold.ToString()
-                                + " gold" + Environment.NewLine;
+                                + " gold." + Environment.NewLine;
                             rtbMessages.Text +=
                                 newLocation.QuestAvailableHere.RewardItem.Name
                                 + Environment.NewLine;
@@ -232,6 +229,7 @@ namespace SuperAdventure
                         }
                     }
                 }
+
                 else
                 { //player doesn't have quest
 

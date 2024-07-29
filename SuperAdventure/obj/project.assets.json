@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\SuperAdventure.csproj",
+      "projectUniqueName": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\SuperAdventure.csproj",
       "projectName": "SuperAdventure",
-      "projectPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\SuperAdventure.csproj",
+      "projectPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\SuperAdventure.csproj",
       "packagesPath": "C:\\Users\\Roger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\SuperAdventure\\obj\\",
+      "outputPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\SuperAdventure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\Engine.csproj": {
-              "projectPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Engine\\Engine.csproj"
+            "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\Roger\\source\\repos\\SuperAdventure\\Super-Adventure-C-\\Engine\\Engine.csproj"
             }
           }
         }

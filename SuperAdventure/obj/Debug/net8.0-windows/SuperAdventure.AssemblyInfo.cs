@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuperAdventure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fa8e972571c106a077fdf0cbec7de64ceb8f0c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e49ba89b155ad2cc1429ea130258bbd353e26b8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuperAdventure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuperAdventure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
